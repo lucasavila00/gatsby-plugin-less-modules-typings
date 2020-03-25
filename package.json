@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-css-modules-typings",
-  "version": "1.0.1",
+  "name": "gatsby-plugin-less-modules-typings",
+  "version": "1.0.0",
   "description": "A gatsby plugin that adds typings for css modules automatically",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "gatsby-plugin",
     "typings"
   ],
-  "author": "Sallar Kaboli <@sallar>",
+  "author": "Lucas Ávila <@lucasavila00>",
   "license": "MIT",
   "dependencies": {
     "typings-for-css-modules-loader": "^1.7.0"
