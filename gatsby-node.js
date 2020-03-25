@@ -1,7 +1,7 @@
 const webpack = require("webpack")
 
-const CSS_PATTERN = /\.css$/
-const MODULE_CSS_PATTERN = /\.module\.css$/
+const CSS_PATTERN = /\.less$/
+const MODULE_CSS_PATTERN = /\.module\.less$/
 
 const isCssRules = rule =>
   rule.test &&
@@ -46,7 +46,7 @@ exports.onCreateWebpackConfig = ({
     })
   }
 
-  config.plugins.push(new webpack.WatchIgnorePlugin([/css\.d\.ts$/]))
+  config.plugins.push(new webpack.WatchIgnorePlugin([/less\.d\.ts$/]))
 
   actions.replaceWebpackConfig(config)
 }
